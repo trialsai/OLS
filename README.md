@@ -25,3 +25,8 @@ To run a complete local OLS installation you will need a mongodb database. This 
  * [ols-apps/ols-loading-app](ols-apps/ols-loading-app) - Spring boot application for that build the complete OLS indexes. This app fetches ontologies specified in the config files, checks if they have changed form a previous download, and if hey have changed it will create all the necessary SOLR and Neo4j indexes. 
 
  * [ols-web](ols-web) - This will contain the WAR file that can be deployed in tomcat to launch the OLS website and REST API. 
+
+## Trials.ai Notes
+
+For instructions specific to using the OLS tool for migrating and OWL ontology into a Neo4j graph database, see the following: 
+https://docs.google.com/document/d/1ZcE81HbIIlAlsLHNPunWqZ6VH3i5voFJugKCrukbAWE/edit?usp=sharing
